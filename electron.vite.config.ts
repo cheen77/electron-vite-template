@@ -23,7 +23,14 @@ export default defineConfig({
     resolve: {
       alias: {
         '@renderer': resolve('src/renderer/src'),
-        '@router': resolve('src/renderer/src/router')
+        '@router': resolve('src/renderer/src/router'),
+        '@store': resolve('src/renderer/src/store'),
+        '@views': resolve('src/renderer/src/views'),
+        '@components': resolve('src/renderer/src/components'),
+        '@utils': resolve('src/renderer/src/utils'),
+        '@interface': resolve('src/renderer/src/interface'),
+        '@hooks': resolve('src/renderer/src/hooks'),
+        '@layout': resolve('src/renderer/src/layout')
       }
     },
     plugins: [
